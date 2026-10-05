@@ -1,0 +1,50 @@
+// Prisma Schema para expansão ou migração futura (SQLite ou PostgreSQL)
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Order {
+  id                    String   @id @default(uuid())
+  createdAt             DateTime @default(now())
+  updatedAt             DateTime @updatedAt
+
+  // Dados do Cliente
+  customerName          String
+  customerCpf           String
+  customerPhone         String
+  customerEmail         String
+
+  // Endereço de Entrega (Mercado Livre)
+  addressCep            String
+  addressStreet         String
+  addressNumber         String
+  addressComplement     String?
+  addressNeighborhood   String
+  addressCity           String
+  addressState          String
+
+  // Produto & Oferta
+  productName           String
+  kitId                 String
+  kitName               String
+  variation             String?
+  quantity              Int      @default(1)
+  amount                Float
+
+  // Pagamento
+  paymentMethod         String   // "pix" | "credit_card"
+  paymentStatus         String   @default("pending") // "pending" | "paid" | "shipped" | "cancelled"
+  gateway               String   // "simulator" | "mercadopago" | "stripe"
+  gatewayTransactionId  String?
+  pixQrCode             String?
+  pixCopyPaste          String?
+
+  // Fulfillment
+  trackingCode          String?
+  shippedAt             DateTime?
+}

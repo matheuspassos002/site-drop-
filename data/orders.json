@@ -1,0 +1,265 @@
+[
+  {
+    "customer": {
+      "name": "Carlos Eduardo da Silva",
+      "cpf": "38101697063",
+      "phone": "(11) 98765-4321",
+      "email": "carlos@teste.com"
+    },
+    "address": {
+      "cep": "01001-000",
+      "street": "Praça da Sé",
+      "number": "100",
+      "complement": "",
+      "neighborhood": "Centro",
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "product": {
+      "name": "Kit 10 Cuecas Boxer Masculinas de Microfibra Conforto",
+      "kitId": "kit-10",
+      "kitName": "Kit 10 Cuecas Boxer (Oferta Campeã)",
+      "variation": "Tamanho G • Cores Lisas Sortidas",
+      "quantity": 10,
+      "amount": 159.9
+    },
+    "payment": {
+      "method": "credit_card",
+      "status": "pending",
+      "gateway": "mercadopago",
+      "gatewayTransactionId": "543520908-c9458eb1-3061-47d6-ba4a-6621b3a98d82"
+    },
+    "id": "ord_muvfh21g_s7xv",
+    "createdAt": "2026-10-05T15:52:01.684Z"
+  },
+  {
+    "customer": {
+      "name": "Carlos Eduardo da Silva",
+      "cpf": "97957315720",
+      "phone": "(11) 98765-4321",
+      "email": "carlos@teste.com"
+    },
+    "address": {
+      "cep": "01001-000",
+      "street": "Praça da Sé",
+      "number": "100",
+      "complement": "",
+      "neighborhood": "Centro",
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "product": {
+      "name": "Kit 10 Cuecas Boxer Masculinas de Microfibra Conforto",
+      "kitId": "kit-10",
+      "kitName": "Kit 10 Cuecas Boxer (Oferta Campeã)",
+      "variation": "Tamanho G • Cores Lisas Sortidas",
+      "quantity": 10,
+      "amount": 159.9
+    },
+    "payment": {
+      "method": "credit_card",
+      "status": "pending",
+      "gateway": "unknown"
+    },
+    "id": "ord_muvfg2v1_3ud2",
+    "createdAt": "2026-10-05T15:51:16.093Z"
+  },
+  {
+    "customer": {
+      "name": "Carlos Eduardo da Silva",
+      "cpf": "78589743004",
+      "phone": "(11) 98765-4321",
+      "email": "carlos@teste.com"
+    },
+    "address": {
+      "cep": "01001-000",
+      "street": "Praça da Sé",
+      "number": "100",
+      "complement": "",
+      "neighborhood": "Centro",
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "product": {
+      "name": "Kit 10 Cuecas Boxer Masculinas de Microfibra Conforto",
+      "kitId": "kit-10",
+      "kitName": "Kit 10 Cuecas Boxer (Oferta Campeã)",
+      "variation": "Tamanho M • Cores Lisas Sortidas",
+      "quantity": 10,
+      "amount": 143.91
+    },
+    "payment": {
+      "method": "pix",
+      "status": "pending",
+      "gateway": "mercadopago",
+      "gatewayTransactionId": "182504445266"
+    },
+    "id": "ord_muvf6axt_mf9g",
+    "createdAt": "2026-10-05T15:43:40.001Z"
+  },
+  {
+    "customer": {
+      "name": "Matheus Passos",
+      "cpf": "123.033.354-18",
+      "phone": "(82) 99138-1943",
+      "email": "matheuspassos801@gmail.com"
+    },
+    "address": {
+      "cep": "57035-330",
+      "street": "Rua Deputado José Lages",
+      "number": "658",
+      "complement": "apto903",
+      "neighborhood": "Ponta Verde",
+      "city": "Maceió",
+      "state": "AL"
+    },
+    "product": {
+      "name": "Kit 10 Cuecas Boxer Masculinas de Microfibra Conforto",
+      "kitId": "kit-10",
+      "kitName": "Kit 10 Cuecas Boxer (Oferta Campeã)",
+      "variation": "Tamanho M • Cores Lisas Sortidas",
+      "quantity": 10,
+      "amount": 159.9
+    },
+    "payment": {
+      "method": "pix",
+      "status": "pending",
+      "gateway": "mercadopago",
+      "gatewayTransactionId": "179530068244"
+    },
+    "id": "ord_mu5wdoph_i1o0",
+    "createdAt": "2026-09-17T19:03:17.333Z"
+  },
+  {
+    "customer": {
+      "name": "Carlos Eduardo da Silva",
+      "cpf": "07825650506",
+      "phone": "11988887777",
+      "email": "carlos.silva@exemplo.com"
+    },
+    "address": {
+      "cep": "01001-000",
+      "street": "Praça da Sé",
+      "number": "100",
+      "complement": "",
+      "neighborhood": "Sé",
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "product": {
+      "name": "Kit 10 Cuecas Boxer Masculinas de Microfibra Conforto",
+      "kitId": "kit-10",
+      "kitName": "Kit 10 Cuecas Boxer (Oferta Campeã)",
+      "variation": "Tamanho G • Cores Lisas Sortidas",
+      "quantity": 10,
+      "amount": 159.9
+    },
+    "payment": {
+      "method": "pix",
+      "status": "pending",
+      "gateway": "mercadopago",
+      "gatewayTransactionId": "178543933839"
+    },
+    "id": "ord_mu5w195f_o5ov",
+    "createdAt": "2026-09-17T18:53:37.299Z"
+  },
+  {
+    "customer": {
+      "name": "Isabella Silveira Duarte",
+      "cpf": "111.444.777-35",
+      "phone": "(21) 98765-4321",
+      "email": "isabella.duarte@gmail.com"
+    },
+    "address": {
+      "cep": "22041-001",
+      "street": "Avenida Atlantica",
+      "number": "2400",
+      "complement": "Apto 901",
+      "neighborhood": "Copacabana",
+      "city": "Rio de Janeiro",
+      "state": "RJ"
+    },
+    "product": {
+      "name": "Vibe Gold Niche Splash • Linha Exclusive",
+      "kitId": "kit-2",
+      "kitName": "2 Frascos (Compre 1 + Leve o 2º com 30% OFF)",
+      "variation": "Vibe Gold (Fragrância Assinatura)",
+      "quantity": 2,
+      "amount": 199.9
+    },
+    "payment": {
+      "method": "pix",
+      "status": "pending",
+      "gateway": "simulator",
+      "gatewayTransactionId": "sim_tx_1789351795232_9l70"
+    },
+    "id": "ord_mu0luxaz_oj6e",
+    "createdAt": "2026-09-14T02:09:54.971Z"
+  },
+  {
+    "customer": {
+      "name": "Lucas Gabriel Ferreira",
+      "cpf": "111.444.777-35",
+      "phone": "(11) 98888-7777",
+      "email": "lucas.ferreira@gmail.com"
+    },
+    "address": {
+      "cep": "01310-100",
+      "street": "Avenida Paulista",
+      "number": "1578",
+      "complement": "Apto 84",
+      "neighborhood": "Bela Vista",
+      "city": "Sao Paulo",
+      "state": "SP"
+    },
+    "product": {
+      "name": "Massageador Cervical Ortopédico Inteligente EMS Pro 4D",
+      "kitId": "kit-2",
+      "kitName": "2 Unidades (Compre 1 + Leve 2º com 50% OFF)",
+      "variation": "Preto Carbono",
+      "quantity": 2,
+      "amount": 147.9
+    },
+    "payment": {
+      "method": "pix",
+      "status": "shipped",
+      "gateway": "unknown"
+    },
+    "id": "ord_mu0kw4go_sna8",
+    "createdAt": "2026-09-14T01:42:51.288Z",
+    "trackingCode": "BR987654321ML",
+    "shippedAt": "2026-09-14T01:44:20.891Z"
+  },
+  {
+    "customer": {
+      "name": "Lucas Gabriel Ferreira",
+      "cpf": "111.444.777-35",
+      "phone": "(11) 98888-7777",
+      "email": "lucas.ferreira@gmail.com"
+    },
+    "address": {
+      "cep": "01310-100",
+      "street": "Avenida Paulista",
+      "number": "1578",
+      "complement": "Apto 84",
+      "neighborhood": "Bela Vista",
+      "city": "S�o Paulo",
+      "state": "SP"
+    },
+    "product": {
+      "name": "Massageador Cervical Ortopédico Inteligente EMS Pro 4D",
+      "kitId": "kit-2",
+      "kitName": "2 Unidades (Compre 1 + Leve 2º com 50% OFF)",
+      "variation": "Preto Carbono",
+      "quantity": 2,
+      "amount": 147.9
+    },
+    "payment": {
+      "method": "pix",
+      "status": "paid",
+      "gateway": "unknown"
+    },
+    "id": "ord_mu0kvsjd_j6yk",
+    "createdAt": "2026-09-14T01:42:35.833Z"
+  }
+]
